@@ -3,6 +3,7 @@ import MyCarousel from './components/MyCarousel/MyCarousel'
 import FAQ from './components/FAQ/FAQ';
 import QuoteGenerator from './components/QuoteGenerator/QuoteGenerator';
 import ShoppingList from './components/ShoppingList/ShoppingList';
+import UserSearch from './components/UserSearch/UserSearch';
 
 function App() {
   const [page, setPage] = useState(null);
@@ -21,6 +22,8 @@ function App() {
         return <QuoteGenerator />
       case "shopping":
         return <ShoppingList />
+      case "user-search":
+        return <UserSearch />
       default:
         return <p>Choose a Mini Project</p>
     }
@@ -36,6 +39,7 @@ function App() {
             <li onClick={() => changePage("faq")}>FAQ</li>
             <li onClick={() => changePage("quote")}>Quote Generator</li>
             <li onClick={() => changePage("shopping")}>Shopping List</li>
+            <li onClick={() => changePage("user-search")}>User Search</li>
           </ul>
         </nav>
       </header>
