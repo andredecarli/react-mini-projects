@@ -1,0 +1,16 @@
+.carousel {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+.slide {
+  height: 60vh;
+}
+
+.slide img{
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
