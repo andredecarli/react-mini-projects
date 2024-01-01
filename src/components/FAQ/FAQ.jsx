@@ -4,6 +4,7 @@ import "./FAQ.css";
 export default function FAQ() {
   return (
     <>
+      <h2>Mini Project 2: FAQ</h2>
       {questions.map((q) => <Question question={q} key={q.id} />)}
     </>
   )
