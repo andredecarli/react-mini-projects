@@ -5,17 +5,17 @@ html, body {
   text-align: center;
 }
 
-ul {
+nav ul {
   display: flex;
   padding: 0;
   gap: 20px;
 }
 
-li {
+nav li {
   list-style-type: none;
 }
 
-li:hover {
+nav li:hover {
   color: lightseagreen;
   text-decoration: underline;
   cursor: pointer;

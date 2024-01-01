@@ -1,0 +1,11 @@
+.shopping-list {
+  border: 3px dashed black;
+}
+
+.shopping-list ul {
+  padding: 0;
+}
+
+.shopping-list li {
+  list-style-type: none;
+}
