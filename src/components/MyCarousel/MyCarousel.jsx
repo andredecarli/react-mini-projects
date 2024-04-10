@@ -2,11 +2,11 @@ import { useState } from 'react';
 import './MyCarousel.css';
 
 const images = [
-  "src/assets/image1.jpeg",
-  "src/assets/image2.jpeg",
-  "src/assets/image3.jpeg",
-  "src/assets/image4.jpeg",
-  "src/assets/image5.jpeg",
+  "/assets/image1.jpeg",
+  "/assets/image2.jpeg",
+  "/assets/image3.jpeg",
+  "/assets/image4.jpeg",
+  "/assets/image5.jpeg",
 ]
 
 export default function MyCarousel() {
